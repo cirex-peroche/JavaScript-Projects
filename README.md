@@ -1,0 +1,1 @@
+This is my repository for TAJS02E1 module - JavaScriptAssignments
