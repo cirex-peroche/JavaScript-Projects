@@ -1,26 +1,19 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Alert from JS</title>
-    </head>
-
-    <style> #output_text {
-        font-weight: bold;
-        font-size: 30px;
-        font-variant-caps: all-small-caps ;
-    }
-    </style> 
-
-    <body>
-
-        <h1>Welcome to Cirex Services Page</h1>
-
-        <!-- Link to external JavaScript file -->
-        <p id="output_text"></p> <!-- This is the element with an id attribute -->
-
-        <script src="JS/main.js"></script>
-
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Operators</title>
+    <script src="JS/main.js" defer></script>
+</head>
+<body>
+    <h1>Click Below to See the Math Result</h1>
+    
+    <p id="addition" onclick="addition()">Click me to add numbers!</p>
+    <p id="subtraction" onclick="subtraction()">Click me to subtrack numbers!</p>
+    <p id="multiplication" onclick="multiplication()">Click me to multiply numbers!</p>
+    <p id="division" onclick="division()">Click me to divide numbers!</p>
+    <p id="Math" onclick="Math()">Click me to find modulus!</p>
+    <p id="remainder" onclick="remainder()">Click me to remainder numbers!</p>
+</body>
 </html>
