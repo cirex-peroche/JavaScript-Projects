@@ -18,9 +18,12 @@ document.write (Sent1 + Sent2 + "<br>");
 function My_First_Function () {
 var str = "This is the button text!";
 document.getElementById ("Button_Text") . innerHTML = str;
+
 }
 
 // main.js
 let message = "Hello";
 message += ", how are you today?";
 document.getElementById("output_text").textContent = message;
+
+
