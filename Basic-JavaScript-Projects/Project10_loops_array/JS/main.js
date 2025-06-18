@@ -45,10 +45,10 @@
     function showPersonInfo() {
       // Define an object using let
       let person = {
-        firstName: "John",
-        lastName: "Doe",
-        age: 30,
-        job: "Developer"
+        firstName: "Ericson",
+        lastName: "Peroche",
+        age: 48,
+        job: "IT/Developer",
       };
 
       // Display object properties
